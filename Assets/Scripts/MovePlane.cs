@@ -13,10 +13,16 @@ public class MovePlane : MonoBehaviour
 
     void Update()
     {
-    	if(camera.transform.rotation.y != 0){
-    		speed = 0;
-    	}
+    	if(camera.transform.rotation.y != 0)
+        {
 
-        transform.Translate(Vector3.back * speed * Time.deltaTime);
+    		transform.Translate(new Vector3(-1,0,0) * speed * Time.deltaTime);
+    	}
+        else
+        {
+
+            transform.Translate(Vector3.back * speed * Time.deltaTime);
+        }
+        
     }
 }
