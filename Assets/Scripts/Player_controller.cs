@@ -34,7 +34,7 @@ public class Player_controller : MonoBehaviour
 
         else if (other.gameObject.CompareTag("Left") && !trigger_contact)
         {
-            transform.Rotate(new Vector3(0, -90, 0));
+            transform.Rotate(new Vector3(0, -90 , 0));
             //transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, new Vector3(0, -90, 0), Time.deltaTime * tspeed);
             trigger_contact = true;
         }
