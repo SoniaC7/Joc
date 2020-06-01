@@ -7,6 +7,8 @@ TagManager:
   - Right
   - Left
   - Shelter
+  - Menu_Play
+  - Menu_Quit
   layers:
   - Default
   - TransparentFX
