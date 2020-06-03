@@ -45,6 +45,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\8K Skybox Pack Free\Example Scenes\Script\RotateCamera.cs" />
      <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKCCD.cs" />
      <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKFabric.cs" />
      <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKLook.cs" />
@@ -212,6 +213,7 @@
      <Compile Include="Assets\extOSC\Scripts\UI\OSCPad.cs" />
      <Compile Include="Assets\extOSC\Scripts\UI\OSCRotary.cs" />
      <Compile Include="Assets\extOSC\Scripts\UI\OSCSlider.cs" />
+     <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
