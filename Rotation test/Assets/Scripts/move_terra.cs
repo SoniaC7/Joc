@@ -16,6 +16,7 @@ public class move_terra : MonoBehaviour
 
     void Update()
     {
+        if(player.GetComponent<move_camera>().dead == true) speed = 0;
         transform.Translate(direction * speed * Time.deltaTime);
 
         if (player.GetComponent<move_camera>().turn == "left") { turn_left(); player.GetComponent<move_camera>().turn = "no"; }

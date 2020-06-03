@@ -9,6 +9,7 @@ TagManager:
   - Shelter
   - Menu_Play
   - Menu_Quit
+  - Dead
   layers:
   - Default
   - TransparentFX

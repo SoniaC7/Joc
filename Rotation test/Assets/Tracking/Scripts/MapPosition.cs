@@ -17,6 +17,7 @@ public class MapPosition : MonoBehaviour
     void Update()
     {
         float x = (TargetObject1.transform.position.x+ TargetObject2.transform.position.x) / 2.0f;
-        transform.position = new Vector3(x, transform.position.y, transform.position.z);
+        float y = (TargetObject1.transform.position.y + TargetObject2.transform.position.y) / 2.0f;
+        transform.position = new Vector3(x, y, transform.position.z);
     }
 }

@@ -6,7 +6,7 @@ public class move_camera : MonoBehaviour
 {
 
     public string turn = "no";
-
+    public bool dead = false;
     private bool trigger_contact = false;
    
     private void OnTriggerEnter(Collider other)
@@ -28,6 +28,11 @@ public class move_camera : MonoBehaviour
             turn = "left";
         }
         
+        else if (other.gameObject.CompareTag("Dead"))
+        {
+            Debug.Log("Dead");
+            dead = true;
+        }
 
         if (other.gameObject.CompareTag("Shelter") && !trigger_contact)
         {
