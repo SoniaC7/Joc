@@ -10,6 +10,7 @@ TagManager:
   - Menu_Play
   - Menu_Quit
   - Dead
+  - Food
   layers:
   - Default
   - TransparentFX
