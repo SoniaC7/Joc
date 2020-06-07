@@ -8,6 +8,8 @@ public class move_camera : MonoBehaviour
     public string turn = "no";
     public bool dead = false;
     private bool trigger_contact = false;
+
+    public float points = 0;
    
     private void OnTriggerEnter(Collider other)
     {
