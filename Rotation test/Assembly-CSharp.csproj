@@ -54,10 +54,14 @@
      <Compile Include="Assets\FastIK\Scripts\Sample\SampleSinMover.cs" />
      <Compile Include="Assets\Scripts\collect_food.cs" />
      <Compile Include="Assets\Scripts\dead.cs" />
+     <Compile Include="Assets\Scripts\destroy_coin.cs" />
      <Compile Include="Assets\Scripts\menu_left_hand.cs" />
      <Compile Include="Assets\Scripts\menu_right_hand.cs" />
      <Compile Include="Assets\Scripts\move_camera.cs" />
+     <Compile Include="Assets\Scripts\move_coin.cs" />
      <Compile Include="Assets\Scripts\move_terra.cs" />
+     <Compile Include="Assets\Scripts\rotate_Coin.cs" />
+     <Compile Include="Assets\Scripts\scale_coin.cs" />
      <Compile Include="Assets\Tracking\Scripts\MapPosition.cs" />
      <Compile Include="Assets\Tracking\Scripts\TrackingReceiver.cs" />
      <Compile Include="Assets\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageReceiver.cs" />

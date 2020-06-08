@@ -5,10 +5,13 @@ using UnityEngine;
 public class move_camera : MonoBehaviour
 {
 
+    [HideInInspector]
     public string turn = "no";
+    [HideInInspector]
     public bool dead = false;
+    [HideInInspector]
     private bool trigger_contact = false;
-
+    [HideInInspector]
     public float points = 0;
    
     private void OnTriggerEnter(Collider other)
