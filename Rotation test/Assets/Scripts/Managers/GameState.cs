@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameState : MonoBehaviour
 {
    public static GameState Instance;
+   public Text collected_food_text;
    [HideInInspector]
    public int collected_food;
 
@@ -17,6 +19,7 @@ public class GameState : MonoBehaviour
     public void CollectedFood()
     {
         collected_food++;
+        collected_food_text.text = collected_food.ToString();
     }
     private void GameOver()
     {

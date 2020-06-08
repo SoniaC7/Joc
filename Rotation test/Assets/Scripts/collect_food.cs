@@ -23,6 +23,7 @@ public class collect_food : MonoBehaviour
 
             GameState.Instance.CollectedFood();
             Debug.Log(GameState.Instance.collected_food);
+            other.gameObject.SetActive(false);
         }
     }
 }
