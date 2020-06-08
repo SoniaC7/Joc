@@ -5,14 +5,20 @@ using UnityEngine;
 public class collect_food : MonoBehaviour
 {
    public GameObject player;
-   public float coin_offset;
    public GameObject coin_prefab;
-   private void OnTriggerEnter(Collider other)
+   
+    
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Food"))
         {
-            Instantiate(coin_prefab,other.transform.position + new Vector3(0, coin_offset,0), Quaternion.identity);
-            player.GetComponent<move_camera>().points ++ ;
+            coin_prefab.transform.position = player.transform.position + new Vector3(0,0,1000);
+            coin_prefab.GetComponentInChildren<MeshRenderer>().enabled = true;
+            coin_prefab.GetComponent<rotate_Coin>().enabled = true;
+            coin_prefab.GetComponent<move_coin>().enabled = true;
+            coin_prefab.GetComponent<scale_coin>().enabled = true;
+            coin_prefab.GetComponent<destroy_coin>().enabled = true;
+            player.GetComponent<move_camera>().points ++;
             Debug.Log(player.GetComponent<move_camera>().points);
         }
     }
