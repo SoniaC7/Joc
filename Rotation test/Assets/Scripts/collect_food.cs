@@ -12,14 +12,17 @@ public class collect_food : MonoBehaviour
     {
         if (other.CompareTag("Food"))
         {
+            Sound.Instance.PlayCollectedFood();
+
             coin_prefab.transform.position = player.transform.position + new Vector3(0,0,1000);
             coin_prefab.GetComponentInChildren<MeshRenderer>().enabled = true;
             coin_prefab.GetComponent<rotate_Coin>().enabled = true;
             coin_prefab.GetComponent<move_coin>().enabled = true;
             coin_prefab.GetComponent<scale_coin>().enabled = true;
             coin_prefab.GetComponent<destroy_coin>().enabled = true;
-            player.GetComponent<move_camera>().points ++;
-            Debug.Log(player.GetComponent<move_camera>().points);
+
+            GameState.Instance.CollectedFood();
+            Debug.Log(GameState.Instance.collected_food);
         }
     }
 }

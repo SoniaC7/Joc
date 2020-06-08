@@ -36,6 +36,7 @@ public class move_camera : MonoBehaviour
         else if (other.gameObject.CompareTag("Dead"))
         {
             Debug.Log("Dead");
+            Sound.Instance.PlayerDead();
             dead = true;
         }
 

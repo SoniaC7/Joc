@@ -52,8 +52,10 @@
      <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
      <Compile Include="Assets\FastIK\Scripts\Sample\SampleRotator.cs" />
      <Compile Include="Assets\FastIK\Scripts\Sample\SampleSinMover.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameState.cs" />
+     <Compile Include="Assets\Scripts\Managers\Sound.cs" />
+     <Compile Include="Assets\Scripts\Managers\UI.cs" />
      <Compile Include="Assets\Scripts\collect_food.cs" />
-     <Compile Include="Assets\Scripts\dead.cs" />
      <Compile Include="Assets\Scripts\destroy_coin.cs" />
      <Compile Include="Assets\Scripts\menu_left_hand.cs" />
      <Compile Include="Assets\Scripts\menu_right_hand.cs" />
