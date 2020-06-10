@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameState : MonoBehaviour
 {
-   public static GameState Instance;
-   public Text collected_food_text;
-   [HideInInspector]
-   public int collected_food;
+    public static GameState Instance;
+    public Text collected_food_text;
+    [HideInInspector]
+    public int collected_food;
 
     void Awake()
     {
@@ -20,6 +20,10 @@ public class GameState : MonoBehaviour
     {
         collected_food++;
         collected_food_text.text = collected_food.ToString();
+    }
+    public void Shelter()
+    {
+        Debug.Log("Shelter");
     }
     private void GameOver()
     {

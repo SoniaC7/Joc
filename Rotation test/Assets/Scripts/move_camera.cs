@@ -41,7 +41,8 @@ public class move_camera : MonoBehaviour
 
         if (other.gameObject.CompareTag("Shelter") && !trigger_contact)
         {
-            Debug.Log("Stop");
+            GameState.Instance.Shelter();
+            dead = true;
         }
     }
 }
