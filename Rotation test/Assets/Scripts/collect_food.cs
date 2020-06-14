@@ -13,7 +13,7 @@ public class collect_food : MonoBehaviour
         {
             Sound.Instance.PlayCollectedFood();
             GameState.Instance.CollectedFood();
-            Debug.Log(GameState.Instance.collected_food);
+            Debug.Log(GameState.collected_food);
             other.gameObject.SetActive(false);
         }
     }
