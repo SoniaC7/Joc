@@ -77,9 +77,9 @@
     <Compile Include="Assets\Scripts\destroy_coin.cs" />
     <Compile Include="Assets\Scripts\menu_left_hand.cs" />
     <Compile Include="Assets\Scripts\menu_right_hand.cs" />
-    <Compile Include="Assets\Scripts\move_camera.cs" />
     <Compile Include="Assets\Scripts\move_coin.cs" />
-    <Compile Include="Assets\Scripts\move_terra.cs" />
+    <Compile Include="Assets\Scripts\move_ground.cs" />
+    <Compile Include="Assets\Scripts\player_controller.cs" />
     <Compile Include="Assets\Scripts\rotate_Coin.cs" />
     <Compile Include="Assets\Scripts\scale_coin.cs" />
     <Compile Include="Assets\Scripts\shelter_left.cs" />
@@ -241,31 +241,31 @@
     <Compile Include="Assets\extOSC\Scripts\UI\OSCSlider.cs" />
     <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity/Projects/Joc/Rotation test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/guile/Documents/GitHub/Joc/Rotation test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move_terra : MonoBehaviour
+public class move_ground : MonoBehaviour
 {
     public float speed;
     public GameObject player;
@@ -16,11 +16,11 @@ public class move_terra : MonoBehaviour
 
     void Update()
     {
-        if(player.GetComponent<move_camera>().dead == true) speed = 0;
+        if(player.GetComponent<player_controller>().dead == true) speed = 0;
         transform.Translate(direction * speed * Time.deltaTime);
 
-        if (player.GetComponent<move_camera>().turn == "left") { turn_left(); player.GetComponent<move_camera>().turn = "no"; }
-        if (player.GetComponent<move_camera>().turn == "right") {turn_right(); player.GetComponent<move_camera>().turn = "no"; }
+        if (player.GetComponent<player_controller>().turn == "left") { turn_left(); player.GetComponent<player_controller>().turn = "no"; }
+        if (player.GetComponent<player_controller>().turn == "right") {turn_right(); player.GetComponent<player_controller>().turn = "no"; }
     }
 
     void turn_left()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move_camera : MonoBehaviour
+public class player_controller : MonoBehaviour
 {
 
     [HideInInspector]

@@ -27,5 +27,6 @@ public class Sound : MonoBehaviour
     public void PlayerDead()
     {
         PlaySound(Player_dead);
+        GameState.Instance.GameOver();
     }
 }

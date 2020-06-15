@@ -29,16 +29,9 @@ public class GameState : MonoBehaviour
         SceneManager.LoadScene("Shelter");
         Debug.Log("Shelter");
     }
-    private void GameOver()
+    public void GameOver()
     {
-
+        SceneManager.LoadScene("Death");
     }
 
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("Menu");
-        }
-    }
 }
