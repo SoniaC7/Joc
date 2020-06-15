@@ -915,7 +915,7 @@ Transform:
   m_GameObject: {fileID: 1961182910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -130.94919, y: 109.36, z: 89.04}
-  m_LocalScale: {x: 6.9292083, y: 5.4650674, z: 0.37031803}
+  m_LocalScale: {x: 7.2, y: 5.4650674, z: 0.37031803}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1080,7 +1080,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'OUT OF  4 '
+  m_Text: OUT OF  15
 --- !u!222 &2108138661
 CanvasRenderer:
   m_ObjectHideFlags: 0
